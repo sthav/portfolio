@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Designer"],
+      strings: ["Developer"],
     });
   }, []);
 
@@ -18,7 +18,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/Sthav_Profile_Pic.jpeg" alt="" />
         </div>
       </div>
       <div className="right">
@@ -26,7 +26,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Sthav</h1>
           <h3>
-            Web <span ref={textRef}></span>
+           A FullStack Mobile and Web <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">

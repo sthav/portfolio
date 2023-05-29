@@ -9,9 +9,13 @@
   h1 {
     font-size: 50px;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
     }
+  }
+
+  a {
+    text-decoration: none !important;
   }
 
   ul {
@@ -21,19 +25,19 @@
     display: flex;
 
     li {
-        font-size: 14px;
-        margin-right: 50px;
-        padding: 7px;
-        border-radius: 10px;
-        cursor: pointer;
+      font-size: 14px;
+      margin-right: 50px;
+      padding: 7px;
+      border-radius: 10px;
+      cursor: pointer;
 
-        &.active {
-            background-color: $mainColor;
-            color: white;
-        }
+      &.active {
+        background-color: $mainColor;
+        color: white;
+      }
     }
 
-    @include mobile{
+    @include mobile {
       margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
@@ -47,7 +51,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile{
+    @include mobile {
       width: 100%;
     }
 
@@ -65,7 +69,7 @@
       transition: all .5s ease;
       cursor: pointer;
 
-      @include mobile{
+      @include mobile {
         width: 130px;
         height: 100px;
       }
@@ -84,6 +88,7 @@
 
       &:hover {
         background-color: $mainColor;
+
         img {
           opacity: 0.2;
           z-index: 0;
