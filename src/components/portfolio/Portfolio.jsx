@@ -22,16 +22,16 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/Pokedex.png" alt="" />
+          <img src="assets/Pokey.png" alt="" />
           <h3><a href="https://pokedex-omega-eosin.vercel.app/" target="_blank" rel="noreferrer">Pokedex</a></h3>
         </div>
         <div className="item">
-          <img src="assets/hotel-booking.png" alt="" />
+          <img src="assets/bookbook.png" alt="" />
           <h3><a href="https://hotel-booking-ten.vercel.app/" target="_blank" rel="noreferrer">book-a-hotel</a></h3>
 
         </div>
         <div className="item">
-          <img src="assets/file_manager_pic.png" alt="" />
+          <img src="assets/stealthhhh.png" alt="" />
           <h3><a href="https://stealth-project-ten.vercel.app/" target="_blank" rel="noreferrer">File manager</a></h3>
         </div>
         <div className="item">
