@@ -29,10 +29,15 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+
+                @include mobile {
+                    font-size: 0;
+                }
             }
 
             .itemContainer {
-                display:flex;
+                display: flex;
                 align-items: center;
                 margin-left: 30px;
 
@@ -44,6 +49,29 @@
                 span {
                     font-size: 15px;
                     font-weight: 500;
+                }
+
+                a {
+                    color: inherit;
+                }
+
+                @include mobile {
+
+            
+                    font-size: 2px;
+                    margin-left: 0;
+                    margin-right: 0;
+
+                    .icon {
+                    font-size: 10px;
+                }
+
+                span {
+                    font-size: 10.5px;
+                    font-weight: 500;
+                    padding-right: 10px;
+                    
+                }
                 }
             }
         }
@@ -59,7 +87,11 @@
                 justify-content: space-between;
                 cursor: pointer;
                 overflow: hidden;
+                
 
+                @include mobile {
+                    margin-left: 10px;
+                }
 
                 span {
                     width: 100%;
@@ -67,7 +99,7 @@
                     background-color: $mainColor;
                     transform-origin: left;
                     transition: all 2s ease;
-                    
+
                 }
             }
         }
@@ -82,15 +114,17 @@
                 &:first-child {
                     background-color: white;
                     transform: rotate(45deg);
-                    
+
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     opacity: 0;
                 }
+
                 &:last-child {
                     background-color: white;
                     transform: rotate(-45deg);
-                    
+
                 }
             }
         }

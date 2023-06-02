@@ -54,11 +54,11 @@
                 align-items: center;
                 justify-content: center;
 
-                // @include mobile {
-                //     width: 80%;
-                //     height: 150px;
-                //     margin: 15px 0;
-                // }
+                @include mobile {
+                    width: 80%;
+                    height: 150px;
+                    margin: 15px 0;
+                }
 
                 .left {
                     flex: 4;
