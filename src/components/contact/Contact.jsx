@@ -16,10 +16,8 @@ export default function Contact() {
       <div className="right">
         <h2>Contact.</h2>
         <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          <h3>Scan the QR code to contact me easily.</h3>
+          <img src="./assets/QRcode_resume.png" alt="QR code" />
         </form>
       </div>
     </div>

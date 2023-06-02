@@ -8,7 +8,7 @@ const Portfolio = () => {
   const list = [
     {
       id: "web",
-      title: "Web and Mobile App",
+      title: "Web and Mobile Apps",
     },
   ];
 
@@ -22,7 +22,7 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/Pokey.png" alt="" />
+          <img src="assets/pokey.png" alt="" />
           <h3><a href="https://pokedex-omega-eosin.vercel.app/" target="_blank" rel="noreferrer">Pokedex</a></h3>
         </div>
         <div className="item">

@@ -30,11 +30,13 @@
       padding: 7px;
       border-radius: 10px;
       cursor: pointer;
+      background-color: $mainColor;
+      color: white;
 
-      &.active {
-        background-color: $mainColor;
-        color: white;
-      }
+      // &.active {
+      //   background-color: $mainColor;
+      //   color: white;
+      // }
     }
 
     @include mobile {
