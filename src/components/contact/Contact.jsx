@@ -15,10 +15,10 @@ export default function Contact() {
       </div>
       <div className="right">
         <h2>Contact.</h2>
-        <form onSubmit={handleSubmit}>
-          <h3>Scan the QR code to contact me easily.</h3>
-          <img src="./assets/QRcode_resume.png" alt="QR code" />
-        </form>
+
+        <h3>Scan the QR code to contact me.</h3>
+        <img src="./assets/QRcode_resume.png" alt="QR code" />
+        <h3>Find my <a href="https://drive.google.com/file/d/10xu0Fi6BC47EzvGTHN0EHX5CAUxCqD1T/view?usp=sharing">Resume </a>here..</h3>
       </div>
     </div>
   );
